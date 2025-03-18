@@ -5,3 +5,4 @@ window.onload = function () {
     var name = localStorage.getItem("userName");
     document.getElementById("response").innerText = "Welcome to Let's Flip, " + name + "!";
 }
+   console.log(name)

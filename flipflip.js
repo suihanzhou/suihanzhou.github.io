@@ -6,3 +6,4 @@ function sayHello() {
 }
     // 将名字存储到 localStorage
     localStorage.setItem("userName", response);
+    console.log(response)
