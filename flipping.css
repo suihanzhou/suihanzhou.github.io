@@ -1,5 +1,5 @@
 body {
-  padding-left: 29em;
+  padding-left: 30em;
   font-family: Arial;
   background-image: url("scene3_复制_画板 1.png");
   background-size:cover;
@@ -19,7 +19,7 @@ address {
   border-top: thin dotted }
 
   .container {
-    margin: 90px;
+    margin: 86px;
     position: relative;
     width: 700px;
     height: 400px;
@@ -32,8 +32,22 @@ address {
       height: 100px;
       position: absolute;
       border: 2px solid yellow;
-      background: pink;
+      background: #ffabb5;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      background-size: cover;
+      background-position: center;
+      background-repeat:no-repeat
+      pointer-events: auto; /* 确保元素可以接收点击事件 */
+      z-index: 1; /* 确保牌在最上层 */
   }
+
+  /* 牌正面样式（显示图片） */
+  .box.flipped {
+    background-image: var(--card-image);
+  }
+
+
 
   .box1 {
     left: 0;
