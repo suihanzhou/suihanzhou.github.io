@@ -1,4 +1,6 @@
 
+//这次作业只有这个JavaScript文件是复制的，其他都是自己写的
+
 window.onload = function () {
     // 从 localStorage 中获取名字
     var name = localStorage.getItem("userName");
