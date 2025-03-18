@@ -1,3 +1,4 @@
+
 body {
   padding-left: 30em;
   font-family: Arial;
@@ -35,19 +36,13 @@ address {
       background: #ffabb5;
       cursor: pointer;
       transition: background 0.3s ease;
-      background-size: cover;
+  }
+
+  .flipped {
+      background-size: contain;
       background-position: center;
-      background-repeat:no-repeat
-      pointer-events: auto; /* 确保元素可以接收点击事件 */
-      z-index: 1; /* 确保牌在最上层 */
+      background-repeat: no-repeat;
   }
-
-  /* 牌正面样式（显示图片） */
-  .box.flipped {
-    background-image: var(--card-image);
-  }
-
-
 
   .box1 {
     left: 0;
