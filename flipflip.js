@@ -6,5 +6,3 @@ function sayHello() {
 }
     // 将名字存储到 localStorage
     localStorage.setItem("userName", response);
-
- document.getElementById("response").innerText = "Welcome to Let's Flip, " + response + "!";
