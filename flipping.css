@@ -1,0 +1,129 @@
+body {
+  padding-left: 30em;
+  font-family: Arial;
+  background-image: url("scene3_复制_画板 1.png");
+  background-size:cover;
+  background-repeat:no-repeat }
+
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em }
+
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black }
+
+ul.navbar a {
+     text-decoration: none }
+   a:link {
+     color: blue }
+   a:visited {
+     color: purple }
+
+h1 {
+   font-size: 35px;
+   font-variant-position: center;
+   color: orange; }
+
+p{
+   font-size: 20px;
+   color: orange; }
+
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
+
+  .container{
+    border: 2px solid yellow;
+    margin: 60px;
+    position: relative;
+    width: 700px;
+    height: 400px;
+  }
+
+  .box1, .box2, .box3, .box4,
+  .box5, .box6, .box7, .box8,
+  .box9, .box10, .box11, .box12 {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+  }
+
+  .box1 {
+    background: blue;
+    left: 0;
+    top: 0;
+  }
+
+  .box2 {
+    background: green;
+    left: 110px;
+    top: 0;
+    border: 2px solid yellow;
+  }
+
+  .box3 {
+    background: red;
+    left: 220px;
+    top: 0;
+}
+
+  .box4 {
+    background: pink;
+    left: 330px;
+    top: 0;
+  }
+
+  .box5 {
+    background: blue;
+    left: 0;
+    top: 110px;
+  }
+
+  .box6 {
+    background: green;
+    left: 110px;
+    top: 110px;
+    border: 2px solid yellow;
+  }
+
+  .box7 { background: red;
+    left: 220px;
+    top: 110px; }
+
+  .box8 {
+    background: pink;
+    left: 330px;
+    top: 110px; }
+
+  .box9 {
+    background: blue;
+    left: 0;
+    top: 220px; }
+
+  .box10 {
+    background: green;
+    left: 110px;
+    top: 220px;
+    border: 2px solid yellow;
+  }
+
+  .box11 {
+    background: red;
+    left: 220px;
+    top: 220px;
+  }
+
+  .box12 {
+    background: pink;
+    left: 330px;
+    top: 220px;
+  }
